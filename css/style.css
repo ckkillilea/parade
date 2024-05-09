@@ -1,0 +1,25 @@
+@font-face {
+  font-family:'coast';
+  src:URL('coast-Regular.otf');
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#next-page-link {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  font-family: 'coast';
+  font-size: 20pt;
+}
+.last-page-link {
+  position: absolute;
+  right: 90%;
+  top: 90%;
+  font-family: 'coast';
+  font-size: 20pt;
+}
